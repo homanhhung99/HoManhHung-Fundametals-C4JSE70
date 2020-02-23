@@ -66,7 +66,7 @@ const cmds = [
     },
 ]
 setshape("rocket-large")
-cmds.forEach((value,index)=>{
+cmds.forEach(value=>{
 if(value.shape=='square'){
 penup()
 rt(90)

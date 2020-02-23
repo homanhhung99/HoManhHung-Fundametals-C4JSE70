@@ -67,7 +67,7 @@ const cmds = [
 ]
 let pi = 3.1415
 setshape("rocket-large")
-cmds.forEach((value,index)=>{
+cmds.forEach(value=>{
 if(value.shape=='square'){
 penup()
 rt(90)

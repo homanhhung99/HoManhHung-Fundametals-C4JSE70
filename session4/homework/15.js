@@ -946,7 +946,7 @@ for(let i = 0; i < jobdata.hits.length;i++)
     })
 }
 //all
-jobdata.hits.forEach((value,index)=>
+jobdata.hits.forEach(value=>
 {
     console.log("\n\n")
     console.log(`JobTitle: ${value.jobTitle}`)
