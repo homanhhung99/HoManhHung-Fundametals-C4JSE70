@@ -43,9 +43,16 @@ else if(input == 'update')
 {
     let position = Number(prompt("Enter position"))
     dev_front[position-1].language = prompt("Enter new title")
-    dev_front.forEach((value,index)=>{
-        console.log(`\n${index+=1}. ${value.language}\nComplete: ${value.complete}`)
-    })
+    if(position <= dev_front.length && position >= 1)
+    {
+        dev_front.forEach((value,index)=>{
+            console.log(`\n${index+=1}. ${value.language}\nComplete: ${value.complete}`)
+        })
+    }
+    else
+    {
+        alert("ERROR!!")
+    }
 }
 else if(input == 'complete')
 {
