@@ -131,7 +131,15 @@ for(let j = 0;j<keys.length;j++)
 {
     if(input==keys[j])
     {
-        alert(`There are ${InventByBrand[keys[j]].length} generration of '${keys[j]}' in ventory'`)
+        let newName = InventByBrand[keys[j]]
+        let x = []
+        let sum = 0
+        for(let n = 0;n<newName.length;n++)
+        {
+            x.push(newName[n].name)
+            sum+=Number(newName[n].price*newName[n].quantity*100)
+        }
+        alert(`There are ${InventByBrand[keys[j]].length} generration of '${keys[j]}' in ventory'\n\n${x.join(`\n`)}\n\nWith total value:${sum.toLocaleString('de-DE', { style: 'currency', currency: 'VND' })}`)
         break
     }
 }
