@@ -1,0 +1,26 @@
+#nut{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.2s;
+    border-radius: 50% ;
+}
+#nut:hover{
+    background-color: green;
+    color: black;
+    transition: 0.2s;
+}
+#xoa{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.2s;
+    border-radius: 50% ;
+}
+#xoa:hover{
+    background-color:yellow;
+    color: black;
+    transition: 0.2s;
+}
