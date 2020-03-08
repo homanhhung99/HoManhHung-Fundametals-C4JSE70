@@ -6,7 +6,7 @@ let create = document.createElement('li')
 buttom.addEventListener('click',(e)=>{
     // console.log(e)
     console.dir(input)
-    Menu.innerHTML += `<li>${input.value}</li>`
+    Menu.innerHTML += `<option>${input.value}</option>`
     // create.innerText = input.value
     // Menu.appendChild(create)
 })

@@ -1,0 +1,27 @@
+.user
+{
+    width: 200px;
+    height: 300px;
+    padding-bottom: 20px;
+    background-color: rgb(16, 69, 216);
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    display: inline-block;
+    margin-left: 10px;
+}
+img{
+    width: 190px;
+    height: 190px;
+    text-align: center;
+    padding-left: 5px;
+}
+.name{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    width: 100%;
+    float: left;
+}
