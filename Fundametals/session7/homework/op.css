@@ -16,3 +16,9 @@ table, th, td {
 .container{
     overflow: hidden;
 }
+tr{
+    transition: 0.4s;
+}
+tr:hover{
+    background-color: rgb(170, 163, 163);
+}
