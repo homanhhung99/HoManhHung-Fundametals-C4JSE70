@@ -1,0 +1,23 @@
+.father{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px solid black;
+    padding: 100px;
+}
+.box
+{
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+    float: left;
+}
+#cong{
+    width: 100px;
+    background-color: blue;
+}
+#tru{
+    width: 100px;
+     background-color: red;
+}
